@@ -103,12 +103,13 @@ export default function Home() {
       {/* Services Section */}
       <section className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
-            <div>
-              <p className="font-mono text-sm tracking-[0.2em] uppercase text-gray-400 mb-4">Our Offering</p>
-              <h2 className="text-4xl md:text-5xl font-light text-gray-900 tracking-tight">Studio Sessions</h2>
-            </div>
-            <Link to="/availability" className="group flex items-center gap-2 text-sm font-medium uppercase tracking-widest text-gray-900 border border-gray-200 rounded-full px-6 py-3 hover:border-gray-900 hover:bg-gray-50 transition-colors">
+          <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-20 gap-6">
+            <p className="font-mono text-sm tracking-[0.2em] uppercase text-gray-400">Our Offering</p>
+            <h2 className="text-4xl md:text-5xl font-light text-gray-900 tracking-tight">Studio Sessions</h2>
+            <p className="text-gray-500 font-light leading-relaxed max-w-xl">
+              Explore our range of professional portrait and creative imagery experiences, designed to capture authentic moments with precision and artistry.
+            </p>
+            <Link to="/availability" className="group flex items-center gap-2 text-sm font-medium uppercase tracking-widest text-gray-900 border border-gray-200 rounded-full px-6 py-3 hover:border-gray-900 hover:bg-gray-50 transition-colors mt-2">
               View Availabilities
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
